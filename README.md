@@ -52,8 +52,7 @@ The script `model_training.py` covers the training of the Decision Tree model an
 The main application script `streamlit_fhs.py` uses Streamlit to create a user-friendly interface for entering information and displaying predictions.
 
 ## Files
-- `data_preprocessing.py`: Data preprocessing steps.
-- `model_training.py`: Script for training the Decision Tree model.
+- `financial.ipynb`: Data preprocessing steps and model
 - `streamlit_fhs.py`: Streamlit web application for predicting financial status.
 - `NFWBS_PUF_2016_data.csv`: Dataset used for training the model.
 - `fhs__model_dt.pkl`: Pre-trained Decision Tree model.
