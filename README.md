@@ -39,14 +39,14 @@ This Streamlit web application is designed to predict financial status based on 
 ## Technical Details
 
 ### Data Preprocessing and Feature Selection
-The script `data_preprocessing.py` demonstrates the steps taken to prepare the dataset for training the model. It includes:
+The jupyter notebook `financial.ipnyb` demonstrates the steps taken to prepare the dataset for training the model. It includes:
 - Handling missing values
 - Removing outliers
 - Scaling numerical features
 - Selecting relevant features using ANOVA F-statistic
 
 ### Model Training and Evaluation
-The script `model_training.py` covers the training of the Decision Tree model and its evaluation using accuracy and a classification report.
+The jupyter notebook `financial.ipnyb` covers the training of the Decision Tree model and its evaluation using accuracy and a classification report.
 
 ### Streamlit Application
 The main application script `streamlit_fhs.py` uses Streamlit to create a user-friendly interface for entering information and displaying predictions.
@@ -57,4 +57,3 @@ The main application script `streamlit_fhs.py` uses Streamlit to create a user-f
 - `NFWBS_PUF_2016_data.csv`: Dataset used for training the model.
 - `fhs__model_dt.pkl`: Pre-trained Decision Tree model.
 
-Feel free to explore, modify, and enhance the application to suit your needs!
