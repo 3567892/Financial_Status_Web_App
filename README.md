@@ -9,7 +9,7 @@ This Streamlit web application is designed to predict financial status based on 
 1. **Run the Application:**
    - Make sure you have Streamlit installed. If not, install it using `pip install streamlit`.
    - Open a terminal and navigate to the directory containing your script.
-   - Run the application with the command: `streamlit run  .py`.
+   - Run the application with the command: `streamlit run  streamlit_fhs.py`.
 
 2. **Input Your Information:**
    - After running the application, you will be prompted to input various financial indicators.
